@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#blog-post img {
+  max-width: 100%; /* Ensures the image does not exceed the width of its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  display: block; /* Ensures the image is displayed as a block element */
+  margin: 0 auto 20px; /* Adds margin at the bottom to create spacing between images and text */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#blog-post h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#blog-post h2 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#blog-post p {
+  font-size: 16px;
+  line-height: 1.6;
+}
